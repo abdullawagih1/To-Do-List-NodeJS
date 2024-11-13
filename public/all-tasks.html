@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Tasks</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>All Tasks</h1>
+
+  <!-- Search and Filter Section -->
+  <div id="searchFilterContainer">
+    <input type="text" id="searchInput" placeholder="Search by title...">
+    <select id="filterSelect">
+      <option value="all">All</option>
+      <option value="completed">Completed</option>
+      <option value="incomplete">Incomplete</option>
+    </select>
+  </div>
+
+  <!-- Task List Section -->
+  <ul id="taskList"></ul>
+
+  <!-- Back to Task Manager Button -->
+  <a href="tasks.html" class="back-link">Back to Task Manager</a>
+
+  <!-- JavaScript File -->
+  <script src="all-tasks.js"></script>
+</body>
+</html>

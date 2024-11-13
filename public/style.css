@@ -1,0 +1,154 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Page Container */
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  /* Header */
+  h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  #taskForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #taskForm input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  #taskForm button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #taskForm button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Task List */
+  /* Task List Styling */
+#taskList {
+    list-style: none;
+    width: 100%;
+    max-width: 600px;
+    padding: 0;
+  }
+  
+  #taskList li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  /* Back Link Styling */
+  .back-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .back-link:hover {
+    text-decoration: underline;
+  }
+    
+  /* Button Styling for Complete and Delete Actions */
+button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  button:nth-child(2) {
+    background-color: #28a745; /* Green for Complete */
+    color: #fff;
+  }
+  
+  button:nth-child(3) {
+    background-color: #dc3545; /* Red for Delete */
+    color: #fff;
+  }
+
+
+
+  /* Button Styling */
+#viewAllTasksButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #viewAllTasksButton:hover {
+    background-color: #0056b3;
+  }
+
+/* Search and Filter Container */
+#searchFilterContainer {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#searchInput {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#filterSelect {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
